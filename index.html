@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahsan Hameed — AI Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:ital,wght@0,200;0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<canvas id="particle-canvas"></canvas>
+
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">AH<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-status">
+    <div class="status-dot"></div>
+    <span>Available for Opportunities</span>
+  </div>
+</nav>
+
+<section id="hero">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-glow-orb orb-1"></div>
+  <div class="hero-glow-orb orb-2"></div>
+
+  <div class="hero-content">
+    <div class="hero-tag">✦ AI Engineer &amp; Automation Expert</div>
+    <h1 class="hero-name">
+      <span class="line1">Ahsan</span>
+      <span class="line2">Hameed</span>
+    </h1>
+    <p class="hero-subtitle"><span id="rotating-subtitle">AI Engineer</span> <span class="subtitle-sep">·</span> <span class="subtitle-static">Building Intelligent Systems</span></p>
+    <p class="hero-typing"><span id="typed-text"></span><span class="cursor-blink"></span></p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">⬡ Explore Work</a>
+      <a href="#contact" class="btn-ghost">→ Get In Touch</a>
+    </div>
+    <div class="hero-nav-pills">
+      <a href="#skills" class="nav-pill">⚡ Skills</a>
+      <a href="#education" class="nav-pill">🎓 Education</a>
+      <a href="#about" class="nav-pill">👤 About</a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="holo-container">
+      <div class="holo-rings">
+        <div class="holo-ring"></div>
+        <div class="holo-ring"></div>
+        <div class="holo-ring"></div>
+      </div>
+      <div class="holo-core">
+        <div class="avatar-hex">
+          AH
+          <div class="avatar-scanline"></div>
+        </div>
+      </div>
+      <div class="data-node node-1">
+        <span class="val">Expert</span>
+        Python
+      </div>
+      <div class="data-node node-2">
+        <span class="val">20+</span>
+        Projects
+      </div>
+      <div class="data-node node-3">
+        <span class="val">Build</span>
+        Automations
+      </div>
+      <div class="data-node node-4">
+        <span class="val">2028</span>
+        Grad Year
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="scan-divider"></div>
+
+<section id="about">
+  <p class="section-label reveal">01 — Identity Matrix</p>
+  <h2 class="section-title reveal reveal-delay-1">About <span>Me</span></h2>
+  <div class="about-grid">
+    <div class="about-text reveal reveal-delay-2">
+      <p>I'm <strong>Ahsan Hameed</strong>, an innovative <em>BS Artificial Intelligence</em> student at Bahria University, Karachi with a sharp focus on <strong>AI-driven automation</strong> and Machine Learning. Based in <em>North Karachi, Pakistan</em> — building intelligent systems that create real impact.</p>
+      <p>I specialize in building <strong>scalable automation workflows</strong> using n8n, deploying production-ready local servers via <em>ngrok</em>, and developing accurate predictive models. My work bridges the gap between <strong>traditional software and intelligent automation</strong>.</p>
+      <p>Currently architecting <strong>autonomous AI agents</strong> and a personal AI Desktop Assistant — pushing boundaries where most students are still learning the basics. I don't just study AI — I deploy it.</p>
+      <div class="about-stats">
+        <div class="about-stat reveal reveal-delay-3">
+          <div class="num">20+</div>
+          <div class="lbl">AI Projects</div>
+        </div>
+        <div class="about-stat reveal reveal-delay-3">
+          <div class="num">6+</div>
+          <div class="lbl">Languages</div>
+        </div>
+        <div class="about-stat reveal reveal-delay-4">
+          <div class="num">2028</div>
+          <div class="lbl">Graduation</div>
+        </div>
+        <div class="about-stat reveal reveal-delay-4">
+          <div class="num">∞</div>
+          <div class="lbl">Curiosity</div>
+        </div>
+      </div>
+    </div>
+    <div class="neural-visual reveal reveal-delay-3">
+      <canvas id="neural-canvas" width="400" height="400"></canvas>
+    </div>
+  </div>
+</section>
+
+<div class="scan-divider"></div>
+
+<section id="skills">
+  <p class="section-label reveal">02 — Capability Stack</p>
+  <h2 class="section-title reveal reveal-delay-1">Technical <span>Arsenal</span></h2>
+
+  <div class="skills-wrapper">
+    <div class="skill-category-block reveal reveal-delay-1">
+      <div class="skill-cat-header">
+        <div class="skill-cat-icon">⟨/⟩</div>
+        <span class="skill-cat-title">Programming</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Python</span><span class="skill-pct">95%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-purple" data-pct="95"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Java</span><span class="skill-pct">80%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-purple" data-pct="80"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">JavaScript / Node.js</span><span class="skill-pct">78%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-purple" data-pct="78"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">C++ / C# / Assembly</span><span class="skill-pct">70%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-purple" data-pct="70"></div></div>
+      </div>
+    </div>
+
+    <div class="skill-category-block reveal reveal-delay-2">
+      <div class="skill-cat-header">
+        <div class="skill-cat-icon">🧠</div>
+        <span class="skill-cat-title">AI &amp; Automation</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">n8n Workflows</span><span class="skill-pct">92%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-cyan" data-pct="92"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Webhooks &amp; API Integration</span><span class="skill-pct">88%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-cyan" data-pct="88"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">UltraMsg API (WhatsApp)</span><span class="skill-pct">85%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-cyan" data-pct="85"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Autonomous AI Agents</span><span class="skill-pct">80%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-cyan" data-pct="80"></div></div>
+      </div>
+    </div>
+
+    <div class="skill-category-block reveal reveal-delay-3">
+      <div class="skill-cat-header">
+        <div class="skill-cat-icon">⚙</div>
+        <span class="skill-cat-title">Web &amp; Tools</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">n8n Automation Platform</span><span class="skill-pct">92%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-pink" data-pct="92"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">API Integration &amp; REST</span><span class="skill-pct">88%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-pink" data-pct="88"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">HTML / CSS / Web Dev</span><span class="skill-pct">85%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-pink" data-pct="85"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">GitHub / VS Code / Jupyter</span><span class="skill-pct">90%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-pink" data-pct="90"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">ngrok (Server Deployment)</span><span class="skill-pct">82%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-pink" data-pct="82"></div></div>
+      </div>
+    </div>
+
+    <div class="skill-category-block reveal reveal-delay-4">
+      <div class="skill-cat-header">
+        <div class="skill-cat-icon">◈</div>
+        <span class="skill-cat-title">ML &amp; Hardware</span>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Random Forest / Logistic Regression</span><span class="skill-pct">85%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-green" data-pct="85"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Scikit-Learn</span><span class="skill-pct">82%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-green" data-pct="82"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Arduino / IoT Sensors</span><span class="skill-pct">78%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-green" data-pct="78"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-info"><span class="skill-name">Digital Logic Design</span><span class="skill-pct">75%</span></div>
+        <div class="skill-track"><div class="skill-fill fill-green" data-pct="75"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="circular-skills reveal">
+    <div class="circ-skill">
+      <div class="circ-wrap">
+        <svg width="90" height="90" viewBox="0 0 90 90">
+          <circle class="circ-bg" cx="45" cy="45" r="35"/>
+          <circle class="circ-fill" cx="45" cy="45" r="35" stroke="#7c3aff" data-pct="95" style="stroke-dashoffset:220"/>
+        </svg>
+        <div class="circ-value">95%</div>
+      </div>
+      <div class="circ-label">Problem Solving</div>
+    </div>
+    <div class="circ-skill">
+      <div class="circ-wrap">
+        <svg width="90" height="90" viewBox="0 0 90 90">
+          <circle class="circ-bg" cx="45" cy="45" r="35"/>
+          <circle class="circ-fill" cx="45" cy="45" r="35" stroke="#00d4ff" data-pct="88" style="stroke-dashoffset:220"/>
+        </svg>
+        <div class="circ-value">88%</div>
+      </div>
+      <div class="circ-label">Research Depth</div>
+    </div>
+    <div class="circ-skill">
+      <div class="circ-wrap">
+        <svg width="90" height="90" viewBox="0 0 90 90">
+          <circle class="circ-bg" cx="45" cy="45" r="35"/>
+          <circle class="circ-fill" cx="45" cy="45" r="35" stroke="#ff2d9b" data-pct="82" style="stroke-dashoffset:220"/>
+        </svg>
+        <div class="circ-value">82%</div>
+      </div>
+      <div class="circ-label">System Design</div>
+    </div>
+    <div class="circ-skill">
+      <div class="circ-wrap">
+        <svg width="90" height="90" viewBox="0 0 90 90">
+          <circle class="circ-bg" cx="45" cy="45" r="35"/>
+          <circle class="circ-fill" cx="45" cy="45" r="35" stroke="#00ff88" data-pct="90" style="stroke-dashoffset:220"/>
+        </svg>
+        <div class="circ-value">90%</div>
+      </div>
+      <div class="circ-label">Innovation</div>
+    </div>
+    <div class="circ-skill">
+      <div class="circ-wrap">
+        <svg width="90" height="90" viewBox="0 0 90 90">
+          <circle class="circ-bg" cx="45" cy="45" r="35"/>
+          <circle class="circ-fill" cx="45" cy="45" r="35" stroke="#7c3aff" data-pct="78" style="stroke-dashoffset:220"/>
+        </svg>
+        <div class="circ-value">78%</div>
+      </div>
+      <div class="circ-label">Collaboration</div>
+    </div>
+    <div class="circ-skill">
+      <div class="circ-wrap">
+        <svg width="90" height="90" viewBox="0 0 90 90">
+          <circle class="circ-bg" cx="45" cy="45" r="35"/>
+          <circle class="circ-fill" cx="45" cy="45" r="35" stroke="#00d4ff" data-pct="85" style="stroke-dashoffset:220"/>
+        </svg>
+        <div class="circ-value">85%</div>
+      </div>
+      <div class="circ-label">Communication</div>
+    </div>
+  </div>
+</section>
+
+<div class="scan-divider"></div>
+
+<section id="projects">
+  <p class="section-label reveal">03 — Project Nodes</p>
+  <h2 class="section-title reveal reveal-delay-1">Featured <span>Work</span></h2>
+  <p class="projects-count reveal reveal-delay-2">Showcasing selected work from <span>20+ projects</span> built across AI, Automation & Software Engineering.</p>
+  <div class="projects-grid">
+
+    <div class="project-card featured reveal reveal-delay-1">
+      <div class="project-card-glow"></div>
+      <div class="project-num">FEATURED PROJECT</div>
+      <div class="project-icon">🤖</div>
+      <h3 class="project-name">AI Article Search &amp; WhatsApp Automation Bot</h3>
+      <p class="project-desc">Engineered a professional automation agent that searches articles and integrates data via UltraMsg API directly to WhatsApp. Deployed a local n8n environment as a 24/7 active server using ngrok tunneling. Automated real-time data logging into Google Sheets using HTTP nodes — a fully autonomous end-to-end intelligence pipeline.</p>
+      <div class="project-tags">
+        <span class="p-tag">n8n</span>
+        <span class="p-tag">Node.js</span>
+        <span class="p-tag">UltraMsg API</span>
+        <span class="p-tag">ngrok</span>
+        <span class="p-tag">Google Sheets</span>
+        <span class="p-tag">Webhooks</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal reveal-delay-2">
+      <div class="project-card-glow"></div>
+      <div class="project-num">PROJECT 002</div>
+      <div class="project-icon">🩺</div>
+      <h3 class="project-name">Diabetes Prediction Model</h3>
+      <p class="project-desc">Built a diagnostic ML tool using Random Forest and Logistic Regression to predict diabetes with high accuracy. Managed full data preprocessing and feature scaling pipeline to optimize model performance.</p>
+      <div class="project-tags">
+        <span class="p-tag">Python</span>
+        <span class="p-tag">Random Forest</span>
+        <span class="p-tag">Scikit-Learn</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal reveal-delay-1">
+      <div class="project-card-glow"></div>
+      <div class="project-num">PROJECT 003</div>
+      <div class="project-icon">🏪</div>
+      <h3 class="project-name">Shop Management System</h3>
+      <p class="project-desc">Built a comprehensive inventory and sales management system for retail operations. Implemented full worker-customer interaction features using core OOP principles in Java.</p>
+      <div class="project-tags">
+        <span class="p-tag">Java</span>
+        <span class="p-tag">OOP</span>
+        <span class="p-tag">Data Structures</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal reveal-delay-2">
+      <div class="project-card-glow"></div>
+      <div class="project-num">PROJECT 004</div>
+      <div class="project-icon">🔥</div>
+      <h3 class="project-name">Hardware-Based IoT Projects</h3>
+      <p class="project-desc">Designed and implemented a real-time Smoke Detector System and an Arduino-based Stopwatch for live hardware monitoring — bridging embedded systems with intelligent sensing.</p>
+      <div class="project-tags">
+        <span class="p-tag">Arduino</span>
+        <span class="p-tag">IoT Sensors</span>
+        <span class="p-tag">Digital Logic</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal reveal-delay-3">
+      <div class="project-card-glow"></div>
+      <div class="project-num">PROJECT 005 · IN PROGRESS</div>
+      <div class="project-icon">🖥️</div>
+      <h3 class="project-name">Personal AI Desktop Assistant</h3>
+      <p class="project-desc">Currently developing a custom AI-powered assistant to automate system-level tasks and streamline desktop productivity. Integrating speech recognition and automation scripts for hands-free system control.</p>
+      <div class="project-tags">
+        <span class="p-tag">Python</span>
+        <span class="p-tag">Speech Recognition</span>
+        <span class="p-tag">AI Agents</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="scan-divider"></div>
+
+<section id="education">
+  <p class="section-label reveal">04 — Knowledge Graph</p>
+  <h2 class="section-title reveal reveal-delay-1">Education <span>Timeline</span></h2>
+  <div class="timeline-wrap">
+    <div class="timeline-track"></div>
+
+    <div class="timeline-item reveal reveal-delay-1">
+      <div class="timeline-dot"></div>
+      <div class="tl-year">2024 — 2028 · CURRENT</div>
+      <div class="tl-degree">Bachelor of Science in Artificial Intelligence</div>
+      <div class="tl-school">Bahria University — Main Campus, Karachi</div>
+      <p class="tl-desc">Specializing in AI-driven automation, Machine Learning, and intelligent systems design. Building real-world AI projects alongside coursework — from predictive models to autonomous agents. Expected Graduation: 2028.</p>
+      <div class="tl-tags">
+        <span class="tl-tag">BS Artificial Intelligence</span>
+        <span class="tl-tag">Bahria University</span>
+        <span class="tl-tag">Expected 2028</span>
+      </div>
+    </div>
+
+    <div class="timeline-item reveal reveal-delay-2">
+      <div class="timeline-dot"></div>
+      <div class="tl-year">RELEVANT COURSEWORK</div>
+      <div class="tl-degree">Core Academic Foundations</div>
+      <div class="tl-school">Bahria University, Karachi</div>
+      <p class="tl-desc">Data Structures, Digital Logic Design, Object-Oriented Programming, Machine Learning, and Programming in AI — building a strong theoretical and practical base for intelligent systems engineering.</p>
+      <div class="tl-tags">
+        <span class="tl-tag">Data Structures</span>
+        <span class="tl-tag">Digital Logic Design</span>
+        <span class="tl-tag">OOP</span>
+        <span class="tl-tag">Machine Learning</span>
+        <span class="tl-tag">Programming in AI</span>
+      </div>
+    </div>
+
+    <div class="timeline-item reveal reveal-delay-3">
+      <div class="timeline-dot"></div>
+      <div class="tl-year">SELF-LEARNING · ONGOING</div>
+      <div class="tl-degree">AI &amp; Automation Self-Development</div>
+      <div class="tl-school">Independent · Hands-On Projects</div>
+      <p class="tl-desc">Independently mastered n8n automation, ngrok server deployment, WhatsApp API integration, and autonomous AI agent architecture — skills built through real project deployment, not just theory.</p>
+      <div class="tl-tags">
+        <span class="tl-tag">n8n Automation</span>
+        <span class="tl-tag">API Integration</span>
+        <span class="tl-tag">AI Agents</span>
+        <span class="tl-tag">Self-Taught</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="scan-divider"></div>
+
+<section id="contact">
+  <div class="contact-inner">
+    <p class="section-label reveal" style="justify-content:center">05 — Signal Transmission</p>
+    <h2 class="contact-headline reveal reveal-delay-1">Let's Build<br><span>Together</span></h2>
+    <p class="contact-sub reveal reveal-delay-2">Open to internships, freelance automation projects, AI collaborations, and opportunities where intelligent systems create real impact. Fill the form — I'll get notified instantly.</p>
+
+    <div class="contact-form reveal reveal-delay-3" id="contactForm">
+      <div class="form-group">
+        <label>Your Name</label>
+        <input type="text" id="senderName" placeholder="Enter full name...">
+      </div>
+      <div class="form-group">
+        <label>Your Email</label>
+        <input type="email" id="senderEmail" placeholder="your@email.com">
+      </div>
+      <div class="form-group full">
+        <label>Subject</label>
+        <input type="text" id="msgSubject" placeholder="Project collaboration, internship, automation work...">
+      </div>
+      <div class="form-group full">
+        <label>Message</label>
+        <textarea id="msgBody" placeholder="Describe your idea, project, or opportunity..."></textarea>
+      </div>
+      <button class="form-submit" id="submitBtn" onclick="sendEmail()"><span>⟶ TRANSMIT MESSAGE</span></button>
+    </div>
+
+    <div class="social-links reveal reveal-delay-4">
+      <a href="https://www.linkedin.com/in/ahsan-hameed-37340b349" target="_blank" class="social-link" title="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a href="https://github.com/Ahesan-00/SIDDIQUESONS-LIMITED" target="_blank" class="social-link" title="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-copy">© 2025 <span>Ahsan Hameed</span> · All Systems Operational</div>
+  <div class="footer-right">AI Engineer &amp; Automation Expert · Karachi, Pakistan</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
